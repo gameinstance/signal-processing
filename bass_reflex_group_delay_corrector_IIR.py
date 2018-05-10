@@ -1,3 +1,11 @@
+"""
+
+Bass-Reflex Group Delay compensation IIR filter
+
+Details on: https://gameinstance.com/post/72/Bass-Reflex-phase-corrector
+
+"""
+
 from scipy import signal
 from scipy.io import wavfile
 import math
